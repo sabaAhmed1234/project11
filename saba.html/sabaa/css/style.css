@@ -1,0 +1,69 @@
+h2{
+    background-color: khaki;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+
+}
+div.container{
+    width: 900px;
+    height: 610px;
+    margin: 35px auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+div.main{
+    width: 300px;
+    padding: 10px 50px 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    float: left;
+    margin-top: 50px;
+
+}
+input[type=text],input[type=password]{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid red;
+    color: rgb(182, 97, 97);
+    font-size: 16px;
+    border-radius:5px ;
+}
+label{
+    color: antiquewhite;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+center{
+    font-size: 32px;
+
+}
+.note{
+    color: rgb(112, 104, 94);
+
+}
+.valid{
+    color: green;
+}
+input[type=button]{
+    font-size: 16px;
+    background: linear-gradient(#fffbff 5%,#fffb00 100%);
+    border: 1px solid #fffb11;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline: none;
+
+}
+input[type=button]:hover{
+    background: linear-gradient(#d3a9d3 5%,#949365 100%);
+}
